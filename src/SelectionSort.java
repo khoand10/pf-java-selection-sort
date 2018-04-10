@@ -1,7 +1,15 @@
 import java.util.Collection;
+/*
+@author: khoa
+ */
 
 public class SelectionSort {
-
+    /*
+    method selection sort list of integer
+    input: list integer
+    output: list sorted
+    select max number, swap this number with start index
+     */
     static void selectionSort(int[] list) {
         for (int i = 0; i < list.length - 1; i++) {
             int temp = list[i];
